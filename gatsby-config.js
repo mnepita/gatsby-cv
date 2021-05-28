@@ -5,12 +5,15 @@ module.exports = {
     title: "Martin Nepita",
     formspreeEndpoint: "https://formspree.io/f/xqkwqpjn",
   },
-    plugins: [
-      {
-        resolve: "@wkocjan/gatsby-theme-intro",
-        options: {
-          theme: "dark-green",
-        },
+  plugins: [
+    {
+      resolve: "@wkocjan/gatsby-theme-intro",
+      options: {
+        basePath: "/",
+        contentPath: "content/",
+        showThemeLogo: true,
+        theme: "dark-green",
       },
-    ],
-  }
+    },
+  ],
+}
