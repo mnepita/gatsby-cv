@@ -1,0 +1,28 @@
+- profile:
+  initials: MN
+  name: Martin Nepita
+  profession: Web Developer
+  image: images/profile.jpg
+  location: Tijuana, Mexico
+  relocation: true
+  company: Freelance
+  for_hire: true
+  focus: Learning Gatsby
+  focus_url: https://gatsbyjs.org
+  about: |
+    Self taught Web Developer & Experienced Technical Support Supervisor with a demonstrated history of working in the telecommunications industry.
+
+  skills:
+    - Node JS
+    - REST Services
+    - MicroServices
+  tools:
+    - Express
+    - Next.js
+    - VSCode
+    - Git
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
