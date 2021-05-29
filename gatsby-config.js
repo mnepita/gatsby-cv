@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    description: "Personal page of Martin Nepita",
+    description: "Personal page and Portfolio of Martín Nepita",
     locale: "en",
-    title: "Martin Nepita",
+    title: "Martín Nepita | Backend Developer",
     formspreeEndpoint: "https://formspree.io/f/xqkwqpjn",
   },
   plugins: [

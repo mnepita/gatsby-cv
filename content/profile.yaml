@@ -1,7 +1,7 @@
 - profile:
   initials: MN
-  name: Martin Nepita
-  profession: Web Developer
+  name: Martín Nepita
+  profession: Backend Developer
   image: images/profile.jpg
   location: Tijuana, Mexico
   relocation: true
@@ -13,13 +13,14 @@
     Self taught Web Developer & Experienced Technical Support Supervisor with a demonstrated history of working in the telecommunications industry.
 
   skills:
-    - Node JS
-    - REST Services
+    - API Design
+    - Restful
     - MicroServices
   tools:
-    - Express
-    - Next.js
-    - VSCode
+    - Agile
+    - mySQL
+    - Express.js
+    - Node.js
     - Git
   budget:
     currency: $
