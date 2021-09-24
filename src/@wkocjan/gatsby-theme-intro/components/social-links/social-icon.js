@@ -12,10 +12,16 @@ import {
   FaTwitter,
   FaYoutube,
   FaXing,
+  FaDev
 } from "react-icons/fa"
-import { SocialType } from "../../types"
+import {
+  SocialType
+} from "../../types"
 
-const SocialIcon = ({ name, ...params }) => {
+const SocialIcon = ({
+  name,
+  ...params
+}) => {
   const icons = {
     behance: FaBehance,
     dribbble: FaDribbble,
@@ -29,11 +35,15 @@ const SocialIcon = ({ name, ...params }) => {
     twitter: FaTwitter,
     youtube: FaYoutube,
     xing: FaXing,
+    dev: FaDev
   }
 
   const Icon = icons[name]
 
-  return Icon ? <Icon {...params} /> : null
+  return Icon ? < Icon {
+    ...params
+  }
+  /> : null
 }
 
 SocialIcon.propTypes = {

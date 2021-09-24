@@ -22,8 +22,8 @@
 - name: github
   url: https://github.com/mnepita
 
-- name: goodreads
-  url:
+- name: dev
+  url: https://dev.to/mnepita
 
 - name: xing
   url:

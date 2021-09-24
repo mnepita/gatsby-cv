@@ -16,10 +16,11 @@
     - API Design
     - Restful
     - MicroServices
+    - Front End Development
   tools:
     - Agile
-    - mySQL
-    - Express.js
+    - mySQL/MongoDB
+    - Express.js/gatsby.js/next.js
     - Node.js
     - Git
   budget:
